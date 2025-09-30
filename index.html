@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="active">
+        <a href="#" class="logo">Vanne</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Resume</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- bars background ctrl + u --> 
+
+    <div class="bars-box active">
+        <div class="bar" style="--i:6"></div>
+        <div class="bar" style="--i:5"></div>
+        <div class="bar" style="--i:4"></div>
+        <div class="bar" style="--i:3"></div>
+        <div class="bar" style="--i:2"></div>
+        <div class="bar" style="--i:1"></div>
+    </div>
+
+    <!-- home section -->
+    <section class="home active">
+        <div class="home-detail">
+            <h1>Vanessa Reyes</h1>
+            <h2>I'm 
+                <span style="--i:3;" data-text="Frontend">Frontend</span>
+                <span style="--i:2;" data-text="Backend">Backend</span>
+                <span style="--i:1;" data-text="FullStack">FullStack</span>
+            </h2>
+            <p>I'm a developer in training, passionate about learning and applying new technologies to create solutions that improve system efficiency. I aspire to continue growing in software development and adding value to every project I work on.</p>
+            <div class="btn-sci">
+                <a href="#" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="img/perfil3.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-code-alt'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Software Development</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum tenetur suscipit veniam nihil natus. Vero!</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-windows'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Web Development</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum tenetur suscipit veniam nihil natus. Vero!</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bxs-paint'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>UI/UX Desing</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum tenetur suscipit veniam nihil natus. Vero!</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- resume section -->
+    <section class="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Why Hire Me?</h2>
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam id esse quo accusamus, temporibus reiciendis?</p>
+                <button class="resume-btn active">Experience</button>
+                <button class="resume-btn">Education</button>
+                <button class="resume-btn">Skills</button>
+                <button class="resume-btn">About Me</button>
+            </div>
+
+            <div class="resume-box">
+                <div class="resume-detail experience active">
+                    <h2 class="heading">My <span>Experience</span></h2>
+                    <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam excepturi ducimus aperiam amet saepe qui quo doloremque vero reprehenderit quas?</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="month">June - Present</p>
+                            <h3>Trainee Developer</h3>
+                            <p class="company">Cementos Moctezuma</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum!</p>
+                        </div>
+                    <!--
+                        <div class="resume-item">
+                            <p class="year">March - April</p>
+                            <h3>Trainee Developer</h3>
+                            <p class="company">Arte en Diseño y Programación MX</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum!</p>
+                        </div>
+                    -->
+                        <div class="resume-item">
+                            <p class="month">September - December</p>
+                            <h3>Trainee Developer</h3>
+                            <p class="company">Thales DIS Mexico</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail education">
+                    <h2 class="heading">My <span>Education</span></h2>
+                    <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam excepturi ducimus aperiam amet saepe qui quo doloremque vero reprehenderit quas?</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="month">2021 - 2024</p>
+                            <h3>Ing. Tecnologías de la Información</h3>
+                            <p class="company">UPEMOR Jiutepec</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, dicta.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="month">2018 - 2021</p>
+                            <h3>Tec. Soporte de Equipos de Cómputo</h3>
+                            <p class="company">CONALEP Cuernavaca</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, possimus.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail skills">
+                    <h2 class="heading">My <span>Skills</span></h2>
+                    <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam excepturi ducimus aperiam amet saepe qui quo doloremque vero reprehenderit quas?</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <i class='bx bxl-html5'></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-css3' ></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-java' ></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-php'></i>
+                            <span>Php</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-react' ></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-tailwind-css' ></i>
+                            <span>Tailwind</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-nodejs' ></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-mongodb' ></i>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail about">
+                    <h2 class="heading">About <span>Me </span></h2>
+                    <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam excepturi ducimus aperiam amet saepe qui quo doloremque vero reprehenderit quas?</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p>Name <span>Vanessa Reyes</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Age <span>21 years</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Nationality <span>Mexican</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>City <span>Cuernavaca</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Experience <span>1 year</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Phone <span>777 460 5101</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Email <span>vanee0338@gmail.com</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Languages <span>Native Spanish, English A2</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- porfolio section -->
+    <section class="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-detail active">
+                    <p class="numb">01</p>
+                    <h3>Frontend Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae neque cumque explicabo impedit sapiente modi porro itaque cupiditate.</p>
+                    <div class="tech">
+                        <p>HTML5, CSS3, JavaScript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href=#><i class='bx bx-arrow-back'></i></a>
+                        <a href=#><i class='bx bxl-github' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-detail">
+                    <p class="numb">02</p>
+                    <h3>Frontend Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae neque cumque explicabo impedit sapiente modi porro itaque cupiditate.</p>
+                    <div class="tech">
+                        <p>HTML5, CSS3, JavaScript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href=#><i class='bx bx-arrow-back'></i></a>
+                        <a href=#><i class='bx bxl-github' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-detail">
+                    <p class="numb">03</p>
+                    <h3>Frontend Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae neque cumque explicabo impedit sapiente modi porro itaque cupiditate.</p>
+                    <div class="tech">
+                        <p>HTML5, CSS3, JavaScript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href=#><i class='bx bx-arrow-back'></i></a>
+                        <a href=#><i class='bx bxl-github' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-detail">
+                    <p class="numb">04</p>
+                    <h3>Frontend Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae neque cumque explicabo impedit sapiente modi porro itaque cupiditate.</p>
+                    <div class="tech">
+                        <p>HTML5, CSS3, JavaScript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href=#><i class='bx bx-arrow-back'></i></a>
+                        <a href=#><i class='bx bxl-github' ></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <div class="portfolio-carousel">
+                    <div class="img-slide">
+                        <div class="img-item">
+                            <img src="img/portfolio1.jpg" alt="">
+                        </div>
+                        <div class="img-item">
+                            <img src="img/portfolio2.jpg" alt="">
+                        </div>
+                        <div class="img-item">
+                            <img src="img/portfolio3.jpg" alt="">
+                        </div>
+                        <div class="img-item">
+                            <img src="img/portfolio4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <button class="arrow-left disabled"><i class='bx bx-chevron-left'></i></button>
+                    <button class="arrow-right"><i class='bx bx-chevron-right'></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Let's Work Together</h2>
+                <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum soluta saepe, expedita impedit ullam reprehenderit reiciendis quaerat voluptas vel omnis.</p>
+                <div class="contact-detail">
+                    <i class='bx bxs-phone'></i>
+                    <div class="detail">
+                        <p>Phone</p>
+                        <p>(+52) 777 460 5101</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class='bx bxs-envelope' ></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p>vanee0338@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class='bx bxs-map' ></i>
+                    <div class="detail">
+                        <p>Location</p>
+                        <p>Cuernavaca, Morelos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-box">
+                <form action="">
+                    <h2 class="heading">Contact <span>Me!</span></h2>
+                    <div class="field-box">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="text" placeholder="Email" required>
+                        <input type="text" placeholder="Phone Number" required>
+                        <input type="text" placeholder="Email " required>
+                        <textarea name="" id="" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
